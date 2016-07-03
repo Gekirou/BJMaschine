@@ -1,0 +1,136 @@
+package de.cfc.bjm;
+
+import java.io.File;
+import java.util.Calendar;
+
+import android.app.Activity;
+import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.Bundle;
+import android.util.Log;
+import android.widget.ImageView;
+import android.widget.TextView;
+import de.cfc.bjm.data.DataHolder;
+
+
+public class SaufDetail extends Activity{
+	private int id;
+	private ImageView avatar;
+	private TextView username;
+	private TextView listid;
+	private ImageView opponentavatar;
+	private TextView opponentname;
+	private TextView duration;
+	private TextView gemaess;
+	private TextView getraenk;
+	private TextView uhrzeit;
+	private TextView datum;
+	private TextView anzahl;
+	Calendar cal;
+
+	
+	
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.saufdetail);
+		Bundle extras=getIntent().getExtras();
+		id=extras.getInt("id");
+		
+		avatar = (ImageView) findViewById(R.id.sd_mainavatar);
+		username = (TextView) findViewById(R.id.sd_mainname);
+		listid = (TextView) findViewById(R.id.sd_bj);
+		duration = (TextView) findViewById(R.id.sd_maintime);
+		opponentavatar = (ImageView) findViewById(R.id.sd_opavatar);
+		opponentname = (TextView) findViewById(R.id.sd_opname);
+		gemaess = (TextView) findViewById(R.id.sd_gemaess);
+		getraenk = (TextView) findViewById(R.id.sd_getraenk);
+		uhrzeit = (TextView) findViewById(R.id.sd_uhrzeit);
+		datum = (TextView) findViewById(R.id.sd_datum);
+		anzahl = (TextView) findViewById(R.id.sd_anzahl);
+		
+		
+		listid.setText("Bierjunge Nr. "+id);
+		
+		
+		DataHolder.db.open();
+		Cursor cur = DataHolder.db.getRecordInformation(id);
+		startManagingCursor(cur);
+		Cursor userCursor = DataHolder.db.getUser(cur.getInt(0));
+		startManagingCursor(userCursor);
+		username.setText(userCursor.getString(1));
+    	
+		File check = new File("/sdcard/.bjm/avatar/"+userCursor.getString(2)); 
+    	if(check.exists()){
+        	Bitmap pic = BitmapFactory.decodeFile("/sdcard/.bjm/avatar/"+userCursor.getString(2));
+        	avatar.setImageBitmap(pic);
+        	
+        } else {
+        	Bitmap pic = BitmapFactory.decodeFile("/sdcard/.bjm/avatar/bier.jpg");
+        	avatar.setImageBitmap(pic);
+        	
+        }
+		
+	
+    	int durationInt = cur.getInt(2);
+    	
+	   String seconds, mseconds;
+	   int sec = (int) ((durationInt)/1000);
+	   int msec = (int) ((durationInt)-(sec*1000));
+	   if(msec<10){
+	   mseconds ="00"+msec;
+	   }else{ if(msec<100){
+		   mseconds="0"+msec;
+		   } else{
+			   mseconds = ""+msec;}
+		   }
+	   seconds = ""+sec;
+ 		   
+    	duration.setText(seconds+"."+mseconds);
+    	
+    	cal = Calendar.getInstance();
+    	cal.setTimeInMillis(cur.getLong(4));
+    	String minute;
+    	if(cal.get(Calendar.MINUTE)<10){
+    		minute = "0"+cal.get(Calendar.MINUTE);
+    	}else{
+    		minute = ""+cal.get(Calendar.MINUTE);
+    	}
+    	uhrzeit.setText(cal.get(Calendar.HOUR_OF_DAY)+"."+minute+" Uhr");
+    	datum.setText(cal.get(Calendar.DAY_OF_MONTH)+"."+(cal.get(Calendar.MONTH)+1)+"."+cal.get(Calendar.YEAR));
+    	Cursor opCursor = DataHolder.db.getUser(cur.getInt(3));
+    	Log.d("SaufDetail", "Opponent ID: " + cur.getInt(3));
+    	startManagingCursor(opCursor);
+    	
+    	File check2 = new File("/sdcard/.bjm/avatar/"+opCursor.getString(2)); 
+    	if(check2.exists()){
+        	Bitmap pic = BitmapFactory.decodeFile("/sdcard/.bjm/avatar/"+opCursor.getString(2));
+        	opponentavatar.setImageBitmap(pic);
+        	
+        } else {
+        	Bitmap pic = BitmapFactory.decodeFile("/sdcard/.bjm/avatar/bier.jpg");
+        	opponentavatar.setImageBitmap(pic);
+        	
+        }
+    	opponentavatar.setImageResource(getResources().getIdentifier(opCursor.getString(2), "drawable", "de.cfc.bjm"));
+    	opponentname.setText(opCursor.getString(1));
+    	String[] gemaesse = getResources().getStringArray(R.array.gemaess_array);
+    	String[] getraenke = getResources().getStringArray(R.array.getraenk_array);
+    	String[] anzahlbier = getResources().getStringArray(R.array.anzahl_bier);
+    	
+    	gemaess.setText(gemaesse[cur.getInt(5)]);
+    	getraenk.setText(getraenke[cur.getInt(6)]);
+    	anzahl.setText(anzahlbier[cur.getInt(7)-1]);
+		DataHolder.db.close();
+		
+	}
+	
+	@Override
+	public void onBackPressed() {
+		super.onBackPressed();
+		setResult(1,getIntent());
+		
+	}
+			
+
+}

@@ -1,0 +1,95 @@
+package de.cfc.bjm;
+
+import java.io.File;
+
+import android.app.Activity;
+import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ProgressBar;
+import android.widget.TextView;
+import de.cfc.bjm.data.DataHolder;
+
+public class UserDetail extends Activity{
+	private int id;
+	
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.userdetail);
+		Bundle extras=getIntent().getExtras();
+		id=extras.getInt("id");
+		
+		getData();
+	}
+	public void getData(){
+		TextView name = (TextView)findViewById(R.id.ud_name);
+		ImageView avatar = (ImageView)findViewById(R.id.ud_avatar);
+		TextView totalbj=(TextView) findViewById(R.id.ud_totalbj);
+		TextView exp = (TextView) findViewById(R.id.ud_xp);
+		TextView verbindung = (TextView) findViewById(R.id.ud_verbindung);
+		LinearLayout opLinLay = (LinearLayout) findViewById(R.id.ud_oplinlay);
+		ImageView op1img = (ImageView) findViewById(R.id.ud_opavatar1);
+		TextView op1name = (TextView) findViewById(R.id.ud_opname1);
+		TextView level = (TextView) findViewById(R.id.ud_level);
+		TextView toNextLevel = (TextView) findViewById(R.id.ud_xpToNextLevel);
+		ProgressBar xpProgress = (ProgressBar) findViewById(R.id.ud_xpProgress);
+		
+		DataHolder.db.open();
+		Cursor user = DataHolder.db.getUser(id);
+		startManagingCursor(user);
+		user.moveToFirst();
+		name.setText(user.getString(1));
+		
+		 File check = new File("/sdcard/.bjm/avatar/"+user.getString(2)); 
+	    	if(check.exists()){
+	        	Bitmap pic = BitmapFactory.decodeFile("/sdcard/.bjm/avatar/"+user.getString(2));
+	        	avatar.setImageBitmap(pic);
+	        	
+	        } else {
+	        	Bitmap pic = BitmapFactory.decodeFile("/sdcard/.bjm/avatar/bier.jpg");
+	        	avatar.setImageBitmap(pic);
+	        	
+	        }
+		
+		totalbj.setText(""+DataHolder.db.getTotalBJ(id));
+		int XP = DataHolder.db.getXP(id);
+		int levelInt = DataHolder.db.getLevel(id);
+		level.setText(""+levelInt);
+		exp.setText(""+XP);
+		int xpDif = DataHolder.levelToXP.get(levelInt)-XP;
+		toNextLevel.setText(""+xpDif);
+		Cursor bund = DataHolder.db.getVerbindung(user.getInt(3)+1);
+		verbindung.setText(bund.getString(0));
+		bund.close();
+		if(levelInt>1){
+			xpProgress.setMax(DataHolder.levelToXP.get(levelInt)-DataHolder.levelToXP.get(levelInt-1));
+			xpProgress.setProgress(XP-DataHolder.levelToXP.get(levelInt-1));
+		}else{
+			xpProgress.setMax(DataHolder.levelToXP.get(levelInt));
+			xpProgress.setProgress(XP);
+		}
+		int oid = DataHolder.db.getFavOpponent(id);
+		if(oid!=0){
+			Cursor opponent = DataHolder.db.getUser(oid);
+			opLinLay.setVisibility(View.VISIBLE);
+			op1name.setText(opponent.getString(1));
+			 File check2 = new File("/sdcard/.bjm/avatar/"+opponent.getString(2)); 
+		    	if(check2.exists()){
+		        	Bitmap pic = BitmapFactory.decodeFile("/sdcard/.bjm/avatar/"+opponent.getString(2));
+		        	op1img.setImageBitmap(pic);
+		        	
+		        } else {
+		        	Bitmap pic = BitmapFactory.decodeFile("/sdcard/.bjm/avatar/bier.jpg");
+		        	op1img.setImageBitmap(pic);
+		        	
+		        }
+			
+		}
+		DataHolder.db.close();
+	}
+
+}

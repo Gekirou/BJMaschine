@@ -1,0 +1,95 @@
+package de.cfc.bjm;
+
+import android.app.ListActivity;
+import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.ContextMenu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.ContextMenu.ContextMenuInfo;
+import android.view.View.OnCreateContextMenuListener;
+import android.widget.AdapterView;
+import android.widget.TextView;
+import android.widget.AdapterView.OnItemClickListener;
+import de.cfc.bjm.data.DataHolder;
+import de.cfc.bjm.data.RankCursorAdapter;
+import de.cfc.bjm.sql.BJMDatabase;
+
+public class Rangliste extends ListActivity{
+	SQLiteDatabase connDB;
+	public int position=1;
+	Bundle savedState;
+	int tempid;
+	
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+	super.onCreate(savedInstanceState);
+	DataHolder.db.open();
+	this.savedState = savedInstanceState;
+	getList();
+	
+	getListView().setOnItemClickListener(oc);
+//	getListView().setOnCreateContextMenuListener(contextmenu);
+}
+
+
+
+public void getList(){
+	
+	DataHolder.db.open();
+	Cursor cursor = DataHolder.db.getXPRecord();
+	startManagingCursor(cursor);
+	Log.d("getList", "Cursor Count: "+cursor.getCount());
+	RankCursorAdapter mAdapter = new RankCursorAdapter(this,position,R.layout.bestlist_entry, cursor, new String[] {BJMDatabase.KEY_USERID, BJMDatabase.KEY_USERNAME, BJMDatabase.KEY_XP}, new int[]{R.id.rangzahl, R.id.name_entry, R.id.duration_entry});
+	setListAdapter(mAdapter);
+	DataHolder.db.close();
+	}
+
+private OnItemClickListener oc = new OnItemClickListener(){
+
+	public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
+		TextView rank=(TextView)arg1.findViewById(R.id.rangzahl);
+		Intent details = new Intent(arg1.getContext(),UserDetail.class);
+		details.putExtra("id", DataHolder.rankIdMap.get(Integer.parseInt(rank.getText().toString())));
+		startActivityForResult(details,1);
+	}
+};
+
+protected void onActivityResult(int requestCode, int resultCode, Intent data){
+	super.onActivityResult(requestCode, resultCode, data);
+	onCreate(savedState);
+}
+
+public OnCreateContextMenuListener contextmenu= new OnCreateContextMenuListener(){
+
+	public void onCreateContextMenu(ContextMenu menu, View v, ContextMenuInfo menuInfo) {
+		TextView rank=(TextView)v.findViewById(R.id.rangzahl);
+		tempid = Integer.parseInt(rank.getText().toString());
+		
+		menu.setHeaderTitle("Bierjunge Nr. "+tempid);
+		menu.add(0, R.id.uc_delete, 0, "Löschen");
+	}
+};
+
+public boolean onContextItemSelected(MenuItem item) {
+	 
+	   switch (item.getItemId()) {
+	   case R.id.uc_delete:
+		   DataHolder.db.open();
+		   DataHolder.db.deleteListEntry(tempid);
+		   onCreate(savedState);
+		   break;
+	   default:
+		   return super.onContextItemSelected(item);
+
+	   }
+
+return super.onContextItemSelected(item);
+}
+
+
+
+}

@@ -1,0 +1,146 @@
+package de.cfc.bjm;
+
+import android.app.ListActivity;
+import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.ContextMenu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.ContextMenu.ContextMenuInfo;
+import android.view.View.OnCreateContextMenuListener;
+import android.widget.AdapterView;
+import android.widget.TextView;
+import android.widget.AdapterView.OnItemClickListener;
+import de.cfc.bjm.data.BLCursorAdapter;
+import de.cfc.bjm.data.DataHolder;
+import de.cfc.bjm.sql.BJMDatabase;
+
+public class Bestenliste extends ListActivity{
+	SQLiteDatabase connDB;
+	public int position=1;
+	Bundle savedState;
+	int volume;
+	int liquid;
+	int anzahl;
+	int tempid;
+	
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+	super.onCreate(savedInstanceState);
+	DataHolder.db.open();
+	this.savedState = savedInstanceState;
+	Bundle bdl = getIntent().getExtras();
+	String mode = bdl.getString("mode");
+	if(mode.equals("saufmode")){
+		volume = DataHolder.volume;
+		liquid = DataHolder.liquid;
+		anzahl = DataHolder.anzahl;
+		getList();
+		if(position>10){
+			getListView().smoothScrollToPosition(13);
+		}
+	}else{
+		volume = bdl.getInt("volume");
+		liquid = bdl.getInt("liquid");
+		anzahl = bdl.getInt("anzahl");
+		getListWOR();
+	}
+	getListView().setOnItemClickListener(oc);
+	getListView().setOnCreateContextMenuListener(contextmenu);
+}
+
+
+
+public void getList(){
+	
+	DataHolder.db.open();
+	Cursor cursor1 = DataHolder.db.getRecord(volume, liquid, anzahl);
+	startManagingCursor(cursor1);
+	calculateRank(cursor1);
+	Cursor cursor = DataHolder.db.getRecord(position,15, volume, liquid, anzahl);
+	startManagingCursor(cursor);
+	Log.d("getList", "Cursor Count: "+cursor.getCount());
+	BLCursorAdapter mAdapter = new BLCursorAdapter(this,position,R.layout.bestlist_entry, cursor, new String[] {BJMDatabase.KEY_LISTID, BJMDatabase.KEY_USERNAME, BJMDatabase.KEY_DURATION}, new int[]{R.id.rangzahl, R.id.name_entry, R.id.duration_entry});
+	setListAdapter(mAdapter);
+	DataHolder.db.close();
+	}
+
+public void getListWOR(){
+	
+	DataHolder.db.open();
+	Cursor cursor = DataHolder.db.getRecord(volume, liquid, anzahl);
+	startManagingCursor(cursor);
+	Log.d("getList", "Cursor Count: "+cursor.getCount());
+	BLCursorAdapter mAdapter = new BLCursorAdapter(this,R.layout.bestlist_entry, cursor, new String[] {BJMDatabase.KEY_LISTID, BJMDatabase.KEY_USERNAME, BJMDatabase.KEY_DURATION}, new int[]{R.id.rangzahl, R.id.name_entry, R.id.duration_entry});
+	setListAdapter(mAdapter);
+	DataHolder.db.close();
+	}
+
+
+
+
+public void calculateRank(Cursor c){
+	c.moveToFirst();
+    while (c.isAfterLast() == false) {
+        if(DataHolder.lid==c.getInt(0)){
+        	this.position= c.getPosition();
+        	break;
+        }
+   	    c.moveToNext();
+    }
+    c.moveToFirst();
+    c.moveToPrevious();
+	
+}
+
+private OnItemClickListener oc = new OnItemClickListener(){
+
+	public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
+		TextView rank=(TextView)arg1.findViewById(R.id.rangzahl);
+		Intent details = new Intent(arg1.getContext(),SaufDetail.class);
+		details.putExtra("id", DataHolder.rankIdMap.get(Integer.parseInt(rank.getText().toString())));
+		startActivityForResult(details,1);
+		
+		
+		
+	}
+	
+};
+protected void onActivityResult(int requestCode, int resultCode, Intent data){
+	super.onActivityResult(requestCode, resultCode, data);
+	onCreate(savedState);
+}
+
+public OnCreateContextMenuListener contextmenu= new OnCreateContextMenuListener(){
+
+	public void onCreateContextMenu(ContextMenu menu, View v, ContextMenuInfo menuInfo) {
+		TextView rank=(TextView)v.findViewById(R.id.rangzahl);
+		tempid = Integer.parseInt(rank.getText().toString());
+		
+		menu.setHeaderTitle("Bierjunge Nr. "+tempid);
+		menu.add(0, R.id.uc_delete, 0, "Löschen");
+	}
+};
+
+public boolean onContextItemSelected(MenuItem item) {
+	 
+	   switch (item.getItemId()) {
+	   case R.id.uc_delete:
+		   DataHolder.db.open();
+		   DataHolder.db.deleteListEntry(tempid);
+		   onCreate(savedState);
+		   break;
+	   default:
+		   return super.onContextItemSelected(item);
+
+	   }
+
+return super.onContextItemSelected(item);
+}
+
+
+
+}

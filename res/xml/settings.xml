@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+		android:title="Login-Einstellungen">
+		<EditTextPreference
+			android:key="username"
+			android:title="Nutzer"
+			android:defaultValue="myuser"/>
+		<EditTextPreference
+			android:key="password"
+			android:title="Passwort"
+			android:defaultValue="mypw"/>		
+		</PreferenceCategory>
+		
+	<PreferenceCategory
+			android:title="Verbindungseinstellungen">
+		<EditTextPreference
+			android:key="serverurl"
+			android:title="Server-URL"
+			android:defaultValue="192.168.1.103"/>
+		<EditTextPreference
+			android:key="port"
+			android:title="Port"
+			android:defaultValue="8080"/>
+		<EditTextPreference
+			android:key="refreshRate"
+			android:title="Aktualisierungsrate in ms"
+			android:defaultValue="800"/>
+	</PreferenceCategory>
+</PreferenceScreen>

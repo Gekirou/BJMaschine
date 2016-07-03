@@ -1,0 +1,43 @@
+10
+
+dir
+43
+svn+ssh://robo.dyndns-server.com/svn/BJM/BJM/src
+svn+ssh://robo.dyndns-server.com/svn/BJM
+
+
+
+2011-04-09T09:02:37.484278Z
+43
+geki
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a1fe062a-b62f-40d4-9e33-a0a2f39e2bbb
+
+
+
+
+
+
+0
+
+((conflict GridView.java file update deleted deleted (version svn+ssh://robo.dyndns-server.com/svn/BJM 2 17 BJM/src/GridView.java 0 ) (version svn+ssh://robo.dyndns-server.com/svn/BJM 2 19 BJM/src/GridView.java none)))
+
+de
+dir
+
+kankan
+dir
+

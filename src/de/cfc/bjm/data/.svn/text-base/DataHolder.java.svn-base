@@ -1,0 +1,36 @@
+package de.cfc.bjm.data;
+
+import java.util.HashMap;
+
+import de.cfc.bjm.sql.BJMDatabase;
+
+public class DataHolder {
+	public static BJMDatabase db;
+	public static int usr1ID=0;
+	public static int usr2ID=0;
+	public static int volume=0;
+	public static int volume_value=3;
+	public static int liquid=0;
+	public static int anzahl=1;
+	public static int lid;
+	public static int lid2nd;
+	public static int indexEnsure=1;
+	public static String avatar = "bier";
+	public static HashMap<Integer, Integer> rankIdMap;
+	public static HashMap<Integer, Integer> xpRankToIDMap;
+    public static final HashMap<Integer, Integer> levelToXP = new HashMap<Integer, Integer>(){
+		private static final long serialVersionUID = -8145810836394003731L;
+
+		{
+            put(1, 10);
+            put(2, 25);
+            put(3, 50);
+            put(4, 90);
+            put(5, 145);
+            put(6, 200);
+            put(7, 280);
+            put(8, 360);
+            put(9, 520);
+        }
+    };
+}

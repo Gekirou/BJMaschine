@@ -1,0 +1,56 @@
+package de.cfc.bjm;
+
+import android.util.Log;
+import de.cfc.bjm.data.DataHolder;
+
+public class XPCalculator {
+	/**Calculates and commits experience to the database. XP Values are returned in double[]:
+	 * 
+	 * result[0] = Rank bonus
+	 * result[1] = personal highscore
+	 * result[2] = total xp
+	 * result[3] = Level Up bool
+	 */
+	public static double[] calcXP(int userid,int lid, int volume, int anzahl, double duration ,boolean winner){
+		
+		double[] result = new double[4];
+		result[0]=0;
+		result[1]=0;
+		result[2]=0;
+		result[3]=0;
+		int basexp;
+		double multi;
+		
+		//calc base experience
+		basexp=(int) (volume*anzahl);
+		result[0]=basexp;
+		//calc multiplier
+		if(duration/1000<1.625){
+			multi =3;
+		}else{
+			multi=(1/(0.8*(duration/1000)-0.8))+1;
+		}
+		if(winner){
+			multi=multi+0.25;
+		}
+		DataHolder.db.open();
+		int rank = DataHolder.db.getRank(lid, DataHolder.volume, DataHolder.liquid, anzahl);
+		if(rank<=20||rank!=-1){
+			multi=multi+(1.05-0.05*rank);
+			result[0]=(1.05-0.05*rank);
+		}
+		if(duration<DataHolder.db.getPersonalHighScore(userid, DataHolder.volume, DataHolder.liquid, anzahl)){
+			multi=multi+0.5;
+			result[1]=0.5;
+		}
+		basexp=(int)Math.round(basexp*multi);
+		DataHolder.db.updateXP(userid, basexp);
+		DataHolder.db.setListEntryXP(lid, basexp);
+		Log.d("XP Calculator", "Base XP: "+basexp);
+		boolean levelUp = DataHolder.db.checkLevel(userid);
+		DataHolder.db.close();
+		result[2]= basexp;
+		result[3]= (levelUp)?1:0;
+		return result;
+    }
+}

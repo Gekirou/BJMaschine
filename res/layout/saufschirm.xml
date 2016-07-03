@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- HauptLinLay -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:background="@drawable/black"
+  android:id="@+id/toplevel">
+  
+<!-- User 1 -->
+<LinearLayout
+  android:layout_width="match_parent"
+  android:layout_height="0px"
+  android:layout_weight="1"
+  android:orientation="horizontal"
+  android:background="@drawable/white"
+  android:id="@+id/user1linlay"
+  >
+
+<!-- Linke Seite / User 1 -->
+<LinearLayout
+  android:layout_width="0px"
+  android:layout_height="wrap_content"
+  android:layout_weight="1"
+  android:layout_margin="2px"
+  android:orientation="vertical"
+  android:layout_gravity="center_vertical|center_horizontal">
+  <ImageView 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/user1avatar"
+android:layout_gravity="center_vertical|center_horizontal"></ImageView>
+</LinearLayout>
+
+
+<!-- Rechte Seite / User 1 -->
+<LinearLayout
+ android:layout_width="0px"
+ android:layout_height="wrap_content"
+ android:layout_weight="1"
+ android:orientation="vertical">
+ 
+<TextView
+style="@android:style/TextAppearance.Large"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:gravity="center_horizontal"
+android:layout_gravity="center_horizontal"
+android:layout_marginTop="30px"
+android:id="@+id/saufschirmusr1"></TextView>
+
+<TextView
+style="@android:style/TextAppearance.Large"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:gravity="center_horizontal"
+android:text="Dauer" android:layout_gravity="center_horizontal" android:layout_marginTop="20px"></TextView>
+
+<TextView
+style="@android:style/TextAppearance.Large"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:gravity="center_horizontal"
+android:id="@+id/DauerUsr1"
+android:text="0.000" android:layout_gravity="center_horizontal"></TextView>
+<TextView
+style="@android:style/TextAppearance.Large"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:gravity="center_horizontal"
+ android:id="@+id/StopUsr1"
+ android:text="Stop!"
+android:layout_gravity="center_horizontal"></TextView>
+
+<LinearLayout
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:layout_marginTop="10dp"
+	android:orientation="horizontal"
+	android:id="@+id/ss_rmLinLay1"
+	android:visibility="gone">
+	<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	style="@android:style/TextAppearance.Large"
+	android:id="@+id/ss_rmText1"></TextView>
+	</LinearLayout>
+<LinearLayout
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:orientation="horizontal"
+	android:id="@+id/ss_pmLinLay1"
+	android:visibility="gone">
+	<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	style="@android:style/TextAppearance.Large"
+	android:id="@+id/ss_pmText1"></TextView>
+	</LinearLayout>
+<LinearLayout
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:orientation="horizontal"
+	android:id="@+id/ss_txpLinLay1"
+	android:visibility="gone">
+	<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	style="@android:style/TextAppearance.Large"
+	android:text="Gesamt XP: "></TextView>
+	<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	style="@android:style/TextAppearance.Large"
+	android:id="@+id/ss_txpText1"></TextView>
+	</LinearLayout>
+ <LinearLayout
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:orientation="horizontal"
+	android:id="@+id/ss_levelUp1"
+	android:visibility="gone">
+	<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	style="@android:style/TextAppearance.Large"
+	android:text="Level Up!"></TextView>
+	</LinearLayout>
+  </LinearLayout>
+</LinearLayout>
+
+<Button android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+ android:id="@+id/returnButton"
+android:visibility="gone"
+android:text="Zurück"></Button>
+
+<!-- User 2 -->
+<LinearLayout
+  android:layout_width="match_parent"
+  android:layout_height="0px"
+  android:layout_weight="1"
+  android:orientation="horizontal"
+  android:background="@drawable/white"
+  android:layout_marginTop="5px"
+  android:id="@+id/user2linlay"
+  >
+
+<!-- Linke Seite / User 2 -->
+<LinearLayout
+ android:layout_width="0px"
+ android:layout_height="match_parent"
+ android:layout_weight="1"
+ android:orientation="vertical">
+ 
+<TextView
+style="@android:style/TextAppearance.Large"
+android:layout_width="wrap_content"
+android:gravity="center_horizontal"
+android:id="@+id/saufschirmusr2" 
+android:layout_gravity="center_horizontal" 
+android:layout_height="wrap_content" 
+android:layout_marginTop="30px"></TextView>
+
+<TextView
+style="@android:style/TextAppearance.Large"
+android:layout_width="wrap_content"
+android:gravity="center_horizontal"
+android:text="Dauer" android:layout_gravity="center_horizontal" android:layout_marginTop="20px" android:layout_height="wrap_content"></TextView>
+
+<TextView
+style="@android:style/TextAppearance.Large"
+android:layout_width="wrap_content"
+android:gravity="center_horizontal"
+android:id="@+id/DauerUsr2"
+android:text="0.000" android:layout_gravity="center_horizontal" android:layout_height="wrap_content"></TextView>
+<TextView
+style="@android:style/TextAppearance.Large"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:gravity="center_horizontal"
+ android:id="@+id/StopUsr2"
+ android:text="Stop!"
+android:layout_gravity="center_horizontal"></TextView>
+
+<LinearLayout
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:orientation="horizontal"
+	android:id="@+id/ss_rmLinLay2"
+	android:layout_marginTop="10dp"
+	android:visibility="gone">
+	<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	style="@android:style/TextAppearance.Large"
+	android:id="@+id/ss_rmText2"></TextView>
+	</LinearLayout>
+<LinearLayout
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:orientation="horizontal"
+	android:id="@+id/ss_pmLinLay2"
+	android:visibility="gone">
+	<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	style="@android:style/TextAppearance.Large"
+	android:id="@+id/ss_pmText2"></TextView>
+	</LinearLayout>
+<LinearLayout
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:orientation="horizontal"
+	android:id="@+id/ss_txpLinLay2"
+	android:visibility="gone">
+	<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	style="@android:style/TextAppearance.Large"
+	android:text="Gesamt XP: "></TextView>
+	<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	style="@android:style/TextAppearance.Large"
+	android:id="@+id/ss_txpText2"></TextView>
+	</LinearLayout>
+ <LinearLayout
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:orientation="horizontal"
+	android:id="@+id/ss_levelUp2"
+	android:visibility="gone">
+	<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	style="@android:style/TextAppearance.Large"
+	android:text="Level Up!"></TextView>
+	</LinearLayout>
+ </LinearLayout>
+
+<!-- Rechte Seite / User 2 -->
+<LinearLayout
+  android:layout_width="0px"
+  android:layout_height="wrap_content"
+  android:layout_weight="1"
+  android:layout_marginTop="5px"
+  android:orientation="vertical"
+  android:layout_gravity="center_vertical|center_horizontal">
+  <ImageView 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/user2avatar"
+android:layout_gravity="center_vertical|center_horizontal"></ImageView>
+</LinearLayout>
+</LinearLayout>
+
+
+</LinearLayout>
