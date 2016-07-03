@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/debug/jniLibs"/></dataSet></merger>

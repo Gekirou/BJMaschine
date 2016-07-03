@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/res/merged/release/layout/us_childview.xml",
+        "source": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/us_childview.xml"
+    },
+    {
+        "merged": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/res/merged/release/layout/us_groupview.xml",
+        "source": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/us_groupview.xml"
+    },
+    {
+        "merged": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/res/merged/release/layout/newuser.xml",
+        "source": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/newuser.xml"
+    },
+    {
+        "merged": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/res/merged/release/layout/userdetail.xml",
+        "source": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/userdetail.xml"
+    },
+    {
+        "merged": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/res/merged/release/layout/bestlist_entry.xml",
+        "source": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/bestlist_entry.xml"
+    },
+    {
+        "merged": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/res/merged/release/layout/userselect_entry.xml",
+        "source": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/userselect_entry.xml"
+    },
+    {
+        "merged": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/res/merged/release/layout/xp_entry.xml",
+        "source": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/xp_entry.xml"
+    },
+    {
+        "merged": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/res/merged/release/layout/saufdetail.xml",
+        "source": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/saufdetail.xml"
+    },
+    {
+        "merged": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/res/merged/release/layout/nu_menu.xml",
+        "source": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/nu_menu.xml"
+    },
+    {
+        "merged": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/res/merged/release/layout/xp_result_screen.xml",
+        "source": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/xp_result_screen.xml"
+    },
+    {
+        "merged": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/res/merged/release/layout/newverbindung.xml",
+        "source": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/newverbindung.xml"
+    },
+    {
+        "merged": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/res/merged/release/layout/saufschirm.xml",
+        "source": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/saufschirm.xml"
+    },
+    {
+        "merged": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/res/merged/release/layout/modescreen.xml",
+        "source": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/modescreen.xml"
+    },
+    {
+        "merged": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/res/merged/release/layout/gallery.xml",
+        "source": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/gallery.xml"
+    },
+    {
+        "merged": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/res/merged/release/layout/gridview.xml",
+        "source": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/gridview.xml"
+    }
+]

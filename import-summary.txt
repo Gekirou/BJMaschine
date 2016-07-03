@@ -1,0 +1,228 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .metadata/
+* .metadata/.lock
+* .metadata/.mylyn/
+* .metadata/.mylyn/repositories.xml.zip
+* .metadata/.plugins/
+* .metadata/.plugins/org.eclipse.core.resources/
+* .metadata/.plugins/org.eclipse.core.resources/.root/
+* .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/
+* .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.root/1.tree
+* .metadata/.plugins/org.eclipse.core.resources/.safetable/
+* .metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+* .metadata/.plugins/org.eclipse.core.runtime/
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/com.android.ide.eclipse.adt.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/com.collabnet.subversion.merge.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.usagedata.recording.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.cvs.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.tigris.subversion.subclipse.tools.usage.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.tigris.subversion.subclipse.ui.prefs
+* .metadata/.plugins/org.eclipse.epp.usagedata.recording/
+* .metadata/.plugins/org.eclipse.epp.usagedata.recording/upload0.csv
+* .metadata/.plugins/org.eclipse.epp.usagedata.recording/usagedata.csv
+* .metadata/.plugins/org.eclipse.jdt.core/
+* .metadata/.plugins/org.eclipse.jdt.core/invalidArchivesCache
+* .metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+* .metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+* .metadata/.plugins/org.eclipse.jdt.ui/
+* .metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+* .metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+* .metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+* .metadata/.plugins/org.eclipse.team.cvs.core/
+* .metadata/.plugins/org.eclipse.team.cvs.core/.running
+* .metadata/.plugins/org.eclipse.ui.workbench/
+* .metadata/.plugins/org.eclipse.ui.workbench/workbench.xml
+* .metadata/version.ini
+* proguard.cfg
+* sounds/
+* sounds/#drinking/
+* sounds/#drinking/60minute.wav
+* sounds/#drinking/Bubble5.wav
+* sounds/#drinking/Horse.wav
+* sounds/#drinking/Timer2.wav
+* sounds/#drinking/Timer3.WAV
+* sounds/#drinking/alleluia.wav
+* sounds/#drinking/belch3.wav
+* sounds/#drinking/bier111.wav
+* sounds/#drinking/bier116.wav
+* sounds/#drinking/bier117.wav
+* sounds/#drinking/bier12.au
+* sounds/#drinking/bier124.wav
+* sounds/#drinking/bier44.wav
+* sounds/#drinking/bier52.wav
+* sounds/#drinking/bier54.wav
+* sounds/#drinking/bier61.wav
+* sounds/#drinking/bier78.wav
+* sounds/#drinking/bier96.wav
+* sounds/#drinking/bongofee.wav
+* sounds/#drinking/bubble6.wav
+* sounds/#drinking/bubble9.wav
+* sounds/#drinking/bubblebrew.wav
+* sounds/#drinking/cow_2.wav
+* sounds/#drinking/drum.wav
+* sounds/#drinking/efekte15.wav
+* sounds/#drinking/fall.wav
+* sounds/#drinking/femeek2.wav
+* sounds/#drinking/iluvthis.wav
+* sounds/#drinking/instrument5.wav
+* sounds/#drinking/intel.wav
+* sounds/#drinking/interfer.wav
+* sounds/#drinking/katsching.wav
+* sounds/#drinking/kiss.wav
+* sounds/#drinking/langweilig.wav
+* sounds/#drinking/lookstup.wav
+* sounds/#drinking/nosir.wav
+* sounds/#drinking/oh_joy.wav
+* sounds/#drinking/pacman2.wav
+* sounds/#drinking/roadrunner.wav
+* sounds/#drinking/schluckduluder.wav
+* sounds/#drinking/schmatz.wav
+* sounds/#drinking/schnarch.wav
+* sounds/#drinking/schneller.wav
+* sounds/#drinking/slurping.wav
+* sounds/#drinking/stimplaf.wav
+* sounds/#drinking/tarzan.wav
+* sounds/#drinking/tiere2.wav
+* sounds/#drinking/tradegy.wav
+* sounds/#drinking/vista.wav
+* sounds/#drinking/warble.wav
+* sounds/#drinking/yehaw.wav
+* sounds/#drinking/zieh.wav
+* sounds/#normal/
+* sounds/#normal/Horse.wav
+* sounds/#normal/activate.wav
+* sounds/#normal/affette.wav
+* sounds/#normal/allefreu.wav
+* sounds/#normal/andiemachine.wav
+* sounds/#normal/bdbdbdbbdbd.wav
+* sounds/#normal/beautifu.wav
+* sounds/#normal/bierhupe.wav
+* sounds/#normal/bjjj.wav
+* sounds/#normal/blubb.wav
+* sounds/#normal/burp2.wav
+* sounds/#normal/burp4.wav
+* sounds/#normal/buxe.wav
+* sounds/#normal/capitain.wav
+* sounds/#normal/cough6.wav
+* sounds/#normal/cough9Tarzanlike.wav
+* sounds/#normal/crazy.wav
+* sounds/#normal/dontouch.wav
+* sounds/#normal/duurst.wav
+* sounds/#normal/empty.wav
+* sounds/#normal/f4.wav
+* sounds/#normal/femeek2.wav
+* sounds/#normal/fertig_1.wav
+* sounds/#normal/flunsen.wav
+* sounds/#normal/fnce-sng.wav
+* sounds/#normal/fuechsewstoff.wav
+* sounds/#normal/goodnite.wav
+* sounds/#normal/gotmail.wav
+* sounds/#normal/haahahah.wav
+* sounds/#normal/haengt.wav
+* sounds/#normal/havefun.wav
+* sounds/#normal/iluvthis.wav
+* sounds/#normal/jb-feel.wav
+* sounds/#normal/katsching.wav
+* sounds/#normal/lachen1.wav
+* sounds/#normal/lachen2.wav
+* sounds/#normal/leave.wav
+* sounds/#normal/liquid.wav
+* sounds/#normal/moepmpeo.wav
+* sounds/#normal/muhahahha.wav
+* sounds/#normal/nananana.wav
+* sounds/#normal/ohjoy.wav
+* sounds/#normal/oper.wav
+* sounds/#normal/pop.wav
+* sounds/#normal/r1.wav
+* sounds/#normal/rasen.wav
+* sounds/#normal/rooelps.wav
+* sounds/#normal/rrrrrruelpps.wav
+* sounds/#normal/rrruuuelbs.wav
+* sounds/#normal/rs-troub.wav
+* sounds/#normal/rscackle.wav
+* sounds/#normal/ruuuelps5.wav
+* sounds/#normal/sauf4656.wav
+* sounds/#normal/sauffffen.wav
+* sounds/#normal/schaf.wav
+* sounds/#normal/scream10.wav
+* sounds/#normal/smoke.wav
+* sounds/#normal/sorry.wav
+* sounds/#normal/trinken.wav
+* sounds/#normal/tötötö.wav
+* sounds/#normal/und_du.wav
+* sounds/#normal/wait.wav
+* sounds/#normal/wc.wav
+* sounds/#normal/wichten2345.wav
+* sounds/#normal/witz1.wav
+* sounds/#normal/wsfertig.wav
+* sounds/2camera.wav
+* sounds/4blurb.wav
+* sounds/atempo.wav
+* sounds/aufrechtsenkrecht.wav
+* sounds/blip1.wav
+* sounds/blubb.wav
+* sounds/camera.wav
+* sounds/drip.wav
+* sounds/empty.wav
+* sounds/ersterbiersieger.wav
+* sounds/fertig.wav
+* sounds/hochbitte.wav
+* sounds/intro.wav
+* sounds/katsching.wav
+* sounds/nicebeep.wav
+* sounds/ode~beer.wav
+* sounds/saufts.wav
+* sounds/ting.wav
+* sounds/typewr11.wav
+* sounds/vomtisch.wav
+* sounds/zieh.wav
+* sounds/zumboden.wav
+* sounds/zumhoden.wav
+* sounds/zumnabel.wav
+* sounds/zumschnabel.wav
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets
+* libs/mysql-connector-java-5.1.3.jar => app/libs/mysql-connector-java-5.1.3.jar
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

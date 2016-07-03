@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_a636565b5538fb39a8d78d33694bcb72c62bcc05/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_909f8f9792e0285365699c93c6d84ff32b359601/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="9b30cd30ad0cbb49309fa170a7c588bcfca9a3a6">
+        <dex dex="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_dd058c17d811ca4371fea7628f29d28530a85fe4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="62aeea22c2329ea69d56516c9bb7f0fd1eeff64d">
+        <dex dex="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_016fe072c0546807bab8e2d23cd7587e8d7eec4a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Android-SDK/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_814a4eedf60783d564ecb90f2c087e9037912699/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/libs/mysql-connector-java-5.1.3.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="927549528edba4c97883df90de8145fa228a5d8f">
+        <dex dex="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/transforms/dex/debug/folders/1000/2/mysql-connector-java-5.1.3_466c6eae6b92d89aa7574c782a558bcf68044d07/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_6c6420e40c062ce6895107fca6c8ff82bf78bfa3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_4df0fafcef8a018da217fdf53132c89b0ef2e879/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_22ffd4692c367af075816533f74eb23a1e0d67c4/classes.dex" />
+    </item>
+
+</items>

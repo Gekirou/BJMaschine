@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 25.1.7">
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/sd_gemaess`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="      android:id=&quot;@+id/sd_gemaess&quot;"
+        errorLine2="      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/saufdetail.xml"
+            line="246"
+            column="7"/>
+        <location
+            file="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/saufdetail.xml"
+            line="81"
+            column="7"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/sd_getraenk`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="      android:id=&quot;@+id/sd_getraenk&quot;"
+        errorLine2="      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/saufdetail.xml"
+            line="290"
+            column="7"/>
+        <location
+            file="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/saufdetail.xml"
+            line="103"
+            column="7"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/sd_uhrzeit`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="      android:id=&quot;@+id/sd_uhrzeit&quot;"
+        errorLine2="      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/saufdetail.xml"
+            line="312"
+            column="7"/>
+        <location
+            file="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/saufdetail.xml"
+            line="168"
+            column="7"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/sd_datum`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="      android:id=&quot;@+id/sd_datum&quot;"
+        errorLine2="      ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/saufdetail.xml"
+            line="334"
+            column="7"/>
+        <location
+            file="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/saufdetail.xml"
+            line="190"
+            column="7"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/sd_opavatar`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="  android:id=&quot;@+id/sd_opavatar&quot;"
+        errorLine2="  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/saufdetail.xml"
+            line="362"
+            column="3"/>
+        <location
+            file="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/saufdetail.xml"
+            line="213"
+            column="3"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/sd_opname`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="   android:id=&quot;@+id/sd_opname&quot;"
+        errorLine2="   ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/saufdetail.xml"
+            line="374"
+            column="4"/>
+        <location
+            file="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/layout/saufdetail.xml"
+            line="224"
+            column="4"/>
+    </issue>
+
+    <issue
+        id="ResourceType"
+        severity="Fatal"
+        message="Expected resource of type menu"
+        category="Correctness"
+        priority="7"
+        summary="Wrong Resource Type"
+        explanation="Ensures that resource id&apos;s passed to APIs are of the right type; for example, calling `Resources.getColor(R.string.name)` is wrong."
+        errorLine1="         inflater.inflate(R.layout.nu_menu, menu);"
+        errorLine2="                          ~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/java/de/cfc/bjm/NewUserPanel.java"
+            line="171"
+            column="27"/>
+    </issue>
+
+</issues>

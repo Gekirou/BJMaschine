@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/res/merged/debug/drawable-hdpi/icon0r.png",
+        "source": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/drawable-hdpi/icon0r.png"
+    },
+    {
+        "merged": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/res/merged/debug/drawable-hdpi/icon.png",
+        "source": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/res/drawable-hdpi/icon.png"
+    }
+]

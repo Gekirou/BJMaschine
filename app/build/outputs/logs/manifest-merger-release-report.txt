@@ -1,0 +1,159 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:2:1-71:12
+	package
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:3:7-27
+		INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:5:7-32
+		INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:4:7-30
+		INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:6:5-98
+	android:name
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:7:1-70
+	android:name
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:7:18-67
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:8:1-64
+	android:name
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:8:18-61
+uses-permission#android.permission.INTERNET
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:9:1-63
+	android:name
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:9:18-60
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:10:1-74
+	android:name
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:10:18-72
+application
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:12:5-70:19
+	android:label
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:12:18-50
+	android:icon
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:12:122-153
+	android:theme
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:12:51-121
+activity#de.cfc.bjm.Start
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:13:9-20:20
+	android:screenOrientation
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:14:13-49
+	android:label
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:15:19-51
+	android:name
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:13:19-39
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:16:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:18:27-74
+activity#de.cfc.bjm.Saufschirm
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:22:3-25:20
+	android:screenOrientation
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:23:7-43
+	android:label
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:24:19-51
+	android:name
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:22:13-38
+activity#de.cfc.bjm.NewUserPanel
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:27:9-30:20
+	android:screenOrientation
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:28:13-49
+	android:label
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:29:19-51
+	android:name
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:27:19-46
+activity#de.cfc.bjm.SelectUserPanel
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:32:9-35:20
+	android:screenOrientation
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:33:13-49
+	android:label
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:34:19-51
+	android:name
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:32:19-49
+activity#de.cfc.bjm.Bestenliste
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:36:9-39:20
+	android:screenOrientation
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:37:14-50
+	android:label
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:38:19-51
+	android:name
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:36:19-45
+activity#de.cfc.bjm.ImageSelector
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:40:9-43:20
+	android:screenOrientation
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:41:13-49
+	android:label
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:42:11-43
+	android:name
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:40:19-47
+activity#de.cfc.bjm.SaufDetail
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:44:10-47:20
+	android:screenOrientation
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:45:13-49
+	android:label
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:46:11-43
+	android:name
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:44:20-45
+activity#de.cfc.bjm.UserDetail
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:48:9-51:20
+	android:screenOrientation
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:49:11-47
+	android:label
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:50:11-43
+	android:name
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:48:19-44
+activity#de.cfc.bjm.NewVerbPanel
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:52:9-55:20
+	android:screenOrientation
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:53:11-47
+	android:label
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:54:11-43
+	android:name
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:52:19-46
+activity#de.cfc.bjm.EditUserPanel
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:56:9-59:20
+	android:screenOrientation
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:57:11-47
+	android:label
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:58:11-43
+	android:name
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:56:19-47
+activity#de.cfc.bjm.Rangliste
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:60:17-63:20
+	android:screenOrientation
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:61:11-47
+	android:label
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:62:11-43
+	android:name
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:60:27-51
+activity#de.cfc.bjm.XpResultActivity
+ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:64:9-67:20
+	android:screenOrientation
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:65:19-55
+	android:label
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:66:19-51
+	android:name
+		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:64:19-51
+uses-sdk
+INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+	android:targetSdkVersion
+		INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml
