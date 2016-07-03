@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/Can/git/coy/BJMaschine/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/Can/git/coy/BJMaschine/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
         "merged": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
         "source": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-v21/abc_btn_colored_material.xml"
     },
@@ -10,5 +14,13 @@
     {
         "merged": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
         "source": "/Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/Can/git/coy/BJMaschine/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/Can/git/coy/BJMaschine/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/Can/git/coy/BJMaschine/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/Can/git/coy/BJMaschine/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-v21/abc_btn_colored_material.xml"
     }
 ]
