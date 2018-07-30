@@ -12,6 +12,7 @@ import android.media.MediaPlayer.OnCompletionListener;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -167,23 +168,6 @@ public class Saufschirm extends Activity {
 			}).start();
 	    }
 
-	@Override
-	public boolean onGenericMotionEvent(final MotionEvent event) {
-		boolean consumed = false;
-
-		if(!postSauf) {
-			if ((event.getButtonState() & MotionEvent.BUTTON_SECONDARY) != 0) {
-				isActive2 = false;
-				consumed = true;
-			}
-
-			if ((event.getButtonState() & MotionEvent.BUTTON_PRIMARY) != 0) {
-				isActive1 = false;
-				consumed = true;
-			}
-		}
-		return consumed;
-	}
 
 	//	@TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
 //	@Override
@@ -227,9 +211,60 @@ public class Saufschirm extends Activity {
 	        uihandler.removeCallbacks(updateui);
 	        uihandler.postDelayed(updateui, 100);
 	    }
+	@Override
+	public boolean onGenericMotionEvent(final MotionEvent event) {
+		boolean consumed = false;
 
-	    
-	    @Override
+		if(!postSauf) {
+			if ((event.getButtonState() & MotionEvent.BUTTON_SECONDARY) != 0) {
+				Log.d("Input", "Got secondary button");
+
+				isActive2 = false;
+				consumed = true;
+			}
+
+			if ((event.getButtonState() & MotionEvent.BUTTON_PRIMARY) != 0) {
+				Log.d("Input", "Got primary button");
+
+				isActive1 = false;
+				consumed = true;
+			}
+		}
+		return consumed;
+	}
+
+	@Override
+	public boolean dispatchGenericMotionEvent(MotionEvent ev) {
+	    	Log.d("Input", "Got Generic Motion Event");
+			return super.dispatchGenericMotionEvent(ev);
+	}
+
+	@Override
+	public boolean dispatchKeyEvent(KeyEvent event) {
+		Log.d("Input", "Got Key Event");
+		return super.dispatchKeyEvent(event);
+	}
+
+	@Override
+	public boolean dispatchKeyShortcutEvent(KeyEvent event) {
+		Log.d("Input", "Got Key Shortcut Event");
+		return super.dispatchKeyShortcutEvent(event);
+	}
+
+	@Override
+	public boolean dispatchTouchEvent(MotionEvent ev) {
+		Log.d("Input", "Got Touch Event");
+
+		return super.dispatchTouchEvent(ev);
+	}
+
+	@Override
+	public boolean dispatchTrackballEvent(MotionEvent ev) {
+		Log.d("Input", "Got Trackball Event");
+		return super.dispatchTrackballEvent(ev);
+	}
+
+	@Override
 	    public void onBackPressed() {
 	    	if(!postSauf){
 //	    		stopBtn2.setVisibility(View.GONE);

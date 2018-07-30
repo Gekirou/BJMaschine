@@ -6,7 +6,6 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 
-import junit.runner.Version;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Environment;
@@ -19,9 +18,9 @@ public class PrefManager {
 	
 	private SharedPreferences pref;
 	private Context context;
-	
-	public static final String IMAGES_FOLDER="avatar/";
-	public static final String TEMP_FOLDER = "temp_data/";
+
+	private static final String IMAGES_FOLDER="avatar/";
+	private static final String TEMP_FOLDER = "temp_data/";
 	public static final String BASE_FOLDER=Environment.getExternalStorageDirectory().getPath()+"/bjm/";
 	private static PrefManager instance;
 
@@ -40,7 +39,7 @@ public class PrefManager {
 	
 
 	public void clearPrefs(){
-		pref.edit().clear().commit();
+		pref.edit().clear().apply();
 	}
 	
 	public String getAvatarFolder(){
@@ -49,16 +48,15 @@ public class PrefManager {
 		return BASE_FOLDER+IMAGES_FOLDER;
 	}
 	
-	public void initDefaultUserPrefs(){
-//		noblesse update server
+	private void initDefaultUserPrefs(){
 //		if(!isUserPrefSet(Prefs.BJM_DB_NAMESPACE))
-			pref.edit().putString(Prefs.BJM_DB_NAMESPACE, "bjm").commit();
+			pref.edit().putString(Prefs.BJM_DB_NAMESPACE, "bjm").apply();
 //		if(!isUserPrefSet(Prefs.BJM_DB_ADDRESS))	
-			pref.edit().putString(Prefs.BJM_DB_ADDRESS, "jdbc:mysql://tri-kon.de:3306").commit();
+			pref.edit().putString(Prefs.BJM_DB_ADDRESS, "jdbc:mysql://tri-kon.de:3306").apply();
 //		if(!isUserPrefSet(Prefs.BJM_DB_USER))
-			pref.edit().putString(Prefs.BJM_DB_USER, "bjm_user").commit();
+			pref.edit().putString(Prefs.BJM_DB_USER, "bjm_user").apply();
 //		if(!isUserPrefSet(Prefs.BJM_DB_PASSWORD))
-			pref.edit().putString(Prefs.BJM_DB_PASSWORD, "df3iub1").commit();
+			pref.edit().putString(Prefs.BJM_DB_PASSWORD, "df3iub1").apply();
 	}
 	
 	private boolean isUserPrefSet(String pref){
