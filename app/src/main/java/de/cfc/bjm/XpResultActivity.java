@@ -45,12 +45,6 @@ public class XpResultActivity extends Activity {
     List<MultiplicatorEntry> getMultiplicatorEntries() {
         List<MultiplicatorEntry> entries = new ArrayList<MultiplicatorEntry>();
 
-        entries.add(new MultiplicatorEntry("Zeit", floatToString(xpResult.getSpeedMultiplicator())));
-        entries.add(new MultiplicatorEntry("Gewinner", "+ " +  floatToString(xpResult.getWinnerMultiplicator())));
-        entries.add(new MultiplicatorEntry("Rang "+xpResult.getRank(), "+ " +  floatToString(xpResult.getRankMultiplicator())));
-        entries.add(new MultiplicatorEntry("Persönlicher Highscore ", "+ " +  floatToString(xpResult.getPersonalHighscoreMultiplicator())));
-        entries.add(new MultiplicatorEntry("Persönlicher Rang in %: " + xpResult.getPersonalDrinksRankPercentage(), "+ " +  floatToString(xpResult.getPersonalDrinksPercentageMultiplicator())));
-
         return entries;
     }
 

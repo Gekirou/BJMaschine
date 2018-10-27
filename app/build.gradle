@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 28
@@ -10,9 +11,23 @@ android {
         targetSdkVersion 28
     }
 
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('/Users/canyumusak/git/coy/bjm/keystore')
+            storePassword 'ttarana'
+            keyAlias 'keystore'
+            keyPassword 'ttarana'
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
@@ -21,4 +36,9 @@ android {
 dependencies {
     implementation "com.android.support:appcompat-v7:+"
     implementation files('libs/mysql-connector-java-5.1.3.jar')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+}
+repositories {
+    mavenCentral()
 }

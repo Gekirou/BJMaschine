@@ -10,7 +10,7 @@ public class DataHolder {
 	public static long usr1ID=0;
 	public static long usr2ID=0;
 	public static int volume=0;
-	public static float volume_value=2.5f;
+	public static float volume_value=25;
 	public static int anzahl_value = 1;
 	public static int liquid=0;
 	public static int anzahl=0;

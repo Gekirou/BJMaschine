@@ -1,41 +1,33 @@
-package de.cfc.bjm
+package de.cfc.bjm;
 
-import android.content.Context
+import android.content.Context;
 
-import de.cfc.bjm.data.DataHolder
-import de.cfc.bjm.db.BJMMySQLDb
-import de.cfc.bjm.model.XpResult
+import de.cfc.bjm.data.DataHolder;
+import de.cfc.bjm.db.BJMMySQLDb;
+import de.cfc.bjm.model.XpResult;
 
-object XPCalculator {
+class XPCalculator {
     /**
      * Calculates and commits experience to the database. XP Values are returned in double[]:
-     *
-     *
+     * <p>
      * result[0] = Rank bonus
      * result[1] = personal highscore
      * result[2] = total xp
      * result[3] = Level Up bool
      */
-    fun calcXP(ctx: Context, userid: Long, lid: Long, volume: Float, anzahl: Int, duration: Double, winner: Boolean): XpResult {
+    static XpResult calcXP(Context ctx, long userid, long lid, float volume, int anzahl, double duration, boolean winner) {
 
-        val xpResult = XpResult()
-        val liquidSquared = (lid * lid).toFloat()
-        val finalXp = (liquidSquared / duration * 100).toFloat()
-        xpResult.isWinner = winner
+        XpResult xpResult = new XpResult();
+        float liquidSquared = volume * volume;
+        float finalXp = (float) (liquidSquared / ((float) (duration)) * 100) * anzahl;
 
-        val db = BJMMySQLDb.getInstance(ctx)
+        BJMMySQLDb db = BJMMySQLDb.getInstance(ctx);
 
-        val finalxp = Math.round(finalXp)
+        int finalxp = (int) Math.round(finalXp);
 
-        xpResult.finalExperience = finalxp
-
-        db.updateXP(userid, finalxp)
-
-        db.setListEntryXP(lid, finalxp)
-        val levelUp = db.checkLevel(userid)
-
-        xpResult.setLevelUp(levelUp)
-
-        return xpResult
+        xpResult.setFinalExperience(finalxp);
+        db.updateXP(userid, finalxp);
+        db.setListEntryXP(lid, finalxp);
+        return xpResult;
     }
 }

@@ -5,17 +5,16 @@
     <string name="gemaess_prompt">Wähle das Gemäß</string>
     <string-array name="gemaess_array">
         <item>0,25</item>
-        <item>0,3</item>
         <item>0,4</item>
         <item>0,5</item>
         <item>1,0</item>
+        <item>1,8</item>
         <item>Karaffe</item>
     </string-array>
     <string name="getraenk_prompt">Wähle das Getränk</string>
     <string-array name="getraenk_array">
         <item>Bier</item>
-        <item>Milch</item>
-        <item>Wasser</item>
+        <item>Appelwoi</item>
         <item>Seltsame Säfte</item>
     </string-array>
         <string name="verbindungen_prompt">Wähle deine Verbindung</string>
@@ -31,11 +30,11 @@
     </string-array>
     
 	<integer-array name="gemaess_array_values">
-	    <item>2</item>
-		<item>3</item>
-		<item>5</item>
-		<item>10</item>
-		<item>15</item>
+	    <item>25</item>
+		<item>40</item>
+		<item>50</item>
+		<item>100</item>
+		<item>180</item>
 	</integer-array>
 	<integer-array name="anzahl_bier_values">
 		<item>1</item>

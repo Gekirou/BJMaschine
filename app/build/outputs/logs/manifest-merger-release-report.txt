@@ -1,159 +1,257 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:2:1-71:12
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:2:1-71:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-beta01.aar/85991a8527e28f9944db03727394c3cc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/70f090472669d1d65fa27e63f0e1ac33/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-beta01.aar/d4e749538fe4e72b896113e9d2def242/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-beta01.aar/2b1fb5bb36a8a41021c9bd9c111604d5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-beta01.aar/944e6b64c225880e3167a29afb42fb21/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-beta01.aar/bb0e1037270a27a5d0a64a1001187165/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-beta01.aar/2ba402f375647e0082d5219ca7218763/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-beta01.aar/00595910db0beb4c37e683d503e15ff4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-beta01.aar/66a5c1a8fb321acb881f3ea698d2aa16/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-beta01.aar/3ce30cd947fc2006b43f5a89c176907f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-beta01.aar/c8400835193503ae9d216b8bcf388ad2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-beta01.aar/e164acb93e5844a6e506abda6d630659/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-beta01.aar/4eaf3d15619ea5d1b6406d181867bca5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-beta01.aar/abd3bc6497b4bcd72921beb2c89a3297/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-beta01.aar/6901cac6f5d15330c8b3d7058e8b624f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-beta01.aar/5929e5e17b7b34ffa03c3035a956f96f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cursoradapter:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-beta01.aar/3c368146607bf66bdf172e74f7bb8ef1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ad45f8941b2348847aee484a0d6438cd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-beta01.aar/216d30d9e3c064174ea896697f60f758/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:documentfile:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-beta01.aar/fb4dfcf18c28486e9798b2530f86f641/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-beta01.aar/def9228d98267e25db1ee24ceab5d626/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/print-28.0.0-beta01.aar/d084be8e03713120e9793bf60d77cb1b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6f006ac48f7ee61a94c784792ac7f4fd/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/7f9b4d76f262461a3a1fc06b81cf4e44/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/875db75131aca8ade657fd292be5dd57/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-beta01.aar/95eb8f3f0f6861fcf879be3d78e4093a/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:2:1-71:12
 	package
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:3:7-27
-		INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:3:7-27
+		INJECTED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:5:7-32
-		INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml
-	android:versionCode
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:4:7-30
-		INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:5:7-32
+		INJECTED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:4:7-30
+		INJECTED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:6:5-98
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:6:5-98
 	android:name
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:6:22-78
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:6:22-78
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:7:1-70
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:7:1-70
 	android:name
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:7:18-67
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:7:18-67
 uses-permission#android.permission.BLUETOOTH
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:8:1-64
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:8:1-64
 	android:name
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:8:18-61
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:8:18-61
 uses-permission#android.permission.INTERNET
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:9:1-63
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:9:1-63
 	android:name
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:9:18-60
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:9:18-60
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:10:1-74
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:10:1-74
 	android:name
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:10:18-72
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:10:18-72
 application
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:12:5-70:19
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:12:5-70:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/70f090472669d1d65fa27e63f0e1ac33/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/70f090472669d1d65fa27e63f0e1ac33/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-beta01.aar/5929e5e17b7b34ffa03c3035a956f96f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-beta01.aar/5929e5e17b7b34ffa03c3035a956f96f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-beta01.aar/216d30d9e3c064174ea896697f60f758/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-beta01.aar/216d30d9e3c064174ea896697f60f758/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-beta01.aar/5929e5e17b7b34ffa03c3035a956f96f/AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:12:18-50
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:12:18-50
 	android:icon
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:12:122-153
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:12:122-153
 	android:theme
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:12:51-121
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:12:51-121
 activity#de.cfc.bjm.Start
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:13:9-20:20
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:13:9-20:20
 	android:screenOrientation
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:14:13-49
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:14:13-49
 	android:label
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:15:19-51
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:15:19-51
 	android:name
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:13:19-39
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:16:13-19:29
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:13:19-39
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:16:13-19:29
 action#android.intent.action.MAIN
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:18:27-74
 activity#de.cfc.bjm.Saufschirm
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:22:3-25:20
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:22:3-25:20
 	android:screenOrientation
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:23:7-43
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:23:7-43
 	android:label
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:24:19-51
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:24:19-51
 	android:name
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:22:13-38
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:22:13-38
 activity#de.cfc.bjm.NewUserPanel
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:27:9-30:20
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:27:9-30:20
 	android:screenOrientation
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:28:13-49
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:28:13-49
 	android:label
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:29:19-51
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:29:19-51
 	android:name
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:27:19-46
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:27:19-46
 activity#de.cfc.bjm.SelectUserPanel
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:32:9-35:20
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:32:9-35:20
 	android:screenOrientation
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:33:13-49
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:33:13-49
 	android:label
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:34:19-51
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:34:19-51
 	android:name
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:32:19-49
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:32:19-49
 activity#de.cfc.bjm.Bestenliste
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:36:9-39:20
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:36:9-39:20
 	android:screenOrientation
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:37:14-50
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:37:14-50
 	android:label
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:38:19-51
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:38:19-51
 	android:name
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:36:19-45
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:36:19-45
 activity#de.cfc.bjm.ImageSelector
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:40:9-43:20
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:40:9-43:20
 	android:screenOrientation
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:41:13-49
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:41:13-49
 	android:label
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:42:11-43
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:42:11-43
 	android:name
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:40:19-47
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:40:19-47
 activity#de.cfc.bjm.SaufDetail
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:44:10-47:20
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:44:10-47:20
 	android:screenOrientation
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:45:13-49
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:45:13-49
 	android:label
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:46:11-43
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:46:11-43
 	android:name
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:44:20-45
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:44:20-45
 activity#de.cfc.bjm.UserDetail
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:48:9-51:20
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:48:9-51:20
 	android:screenOrientation
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:49:11-47
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:49:11-47
 	android:label
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:50:11-43
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:50:11-43
 	android:name
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:48:19-44
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:48:19-44
 activity#de.cfc.bjm.NewVerbPanel
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:52:9-55:20
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:52:9-55:20
 	android:screenOrientation
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:53:11-47
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:53:11-47
 	android:label
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:54:11-43
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:54:11-43
 	android:name
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:52:19-46
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:52:19-46
 activity#de.cfc.bjm.EditUserPanel
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:56:9-59:20
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:56:9-59:20
 	android:screenOrientation
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:57:11-47
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:57:11-47
 	android:label
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:58:11-43
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:58:11-43
 	android:name
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:56:19-47
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:56:19-47
 activity#de.cfc.bjm.Rangliste
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:60:17-63:20
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:60:17-63:20
 	android:screenOrientation
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:61:11-47
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:61:11-47
 	android:label
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:62:11-43
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:62:11-43
 	android:name
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:60:27-51
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:60:27-51
 activity#de.cfc.bjm.XpResultActivity
-ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:64:9-67:20
+ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:64:9-67:20
 	android:screenOrientation
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:65:19-55
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:65:19-55
 	android:label
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:66:19-51
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:66:19-51
 	android:name
-		ADDED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml:64:19-51
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml:64:19-51
 uses-sdk
-INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml
+INJECTED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-beta01.aar/85991a8527e28f9944db03727394c3cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-beta01.aar/85991a8527e28f9944db03727394c3cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/70f090472669d1d65fa27e63f0e1ac33/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/70f090472669d1d65fa27e63f0e1ac33/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-beta01.aar/d4e749538fe4e72b896113e9d2def242/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-beta01.aar/d4e749538fe4e72b896113e9d2def242/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-beta01.aar/2b1fb5bb36a8a41021c9bd9c111604d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-beta01.aar/2b1fb5bb36a8a41021c9bd9c111604d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-beta01.aar/944e6b64c225880e3167a29afb42fb21/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-beta01.aar/944e6b64c225880e3167a29afb42fb21/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-beta01.aar/bb0e1037270a27a5d0a64a1001187165/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-beta01.aar/bb0e1037270a27a5d0a64a1001187165/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-beta01.aar/2ba402f375647e0082d5219ca7218763/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-beta01.aar/2ba402f375647e0082d5219ca7218763/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-beta01.aar/00595910db0beb4c37e683d503e15ff4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-beta01.aar/00595910db0beb4c37e683d503e15ff4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-beta01.aar/66a5c1a8fb321acb881f3ea698d2aa16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-beta01.aar/66a5c1a8fb321acb881f3ea698d2aa16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-beta01.aar/3ce30cd947fc2006b43f5a89c176907f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-beta01.aar/3ce30cd947fc2006b43f5a89c176907f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-beta01.aar/c8400835193503ae9d216b8bcf388ad2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-beta01.aar/c8400835193503ae9d216b8bcf388ad2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-beta01.aar/e164acb93e5844a6e506abda6d630659/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-beta01.aar/e164acb93e5844a6e506abda6d630659/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-beta01.aar/4eaf3d15619ea5d1b6406d181867bca5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-beta01.aar/4eaf3d15619ea5d1b6406d181867bca5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-beta01.aar/abd3bc6497b4bcd72921beb2c89a3297/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-beta01.aar/abd3bc6497b4bcd72921beb2c89a3297/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-beta01.aar/6901cac6f5d15330c8b3d7058e8b624f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-beta01.aar/6901cac6f5d15330c8b3d7058e8b624f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-beta01.aar/5929e5e17b7b34ffa03c3035a956f96f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-beta01.aar/5929e5e17b7b34ffa03c3035a956f96f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-beta01.aar/3c368146607bf66bdf172e74f7bb8ef1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-beta01.aar/3c368146607bf66bdf172e74f7bb8ef1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ad45f8941b2348847aee484a0d6438cd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ad45f8941b2348847aee484a0d6438cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-beta01.aar/216d30d9e3c064174ea896697f60f758/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-beta01.aar/216d30d9e3c064174ea896697f60f758/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-beta01.aar/fb4dfcf18c28486e9798b2530f86f641/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-beta01.aar/fb4dfcf18c28486e9798b2530f86f641/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-beta01.aar/def9228d98267e25db1ee24ceab5d626/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-beta01.aar/def9228d98267e25db1ee24ceab5d626/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/print-28.0.0-beta01.aar/d084be8e03713120e9793bf60d77cb1b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/print-28.0.0-beta01.aar/d084be8e03713120e9793bf60d77cb1b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6f006ac48f7ee61a94c784792ac7f4fd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6f006ac48f7ee61a94c784792ac7f4fd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/7f9b4d76f262461a3a1fc06b81cf4e44/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/7f9b4d76f262461a3a1fc06b81cf4e44/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/875db75131aca8ade657fd292be5dd57/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/875db75131aca8ade657fd292be5dd57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-beta01.aar/95eb8f3f0f6861fcf879be3d78e4093a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-beta01] /Users/canyumusak/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-beta01.aar/95eb8f3f0f6861fcf879be3d78e4093a/AndroidManifest.xml:20:5-44
+INJECTED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml
+INJECTED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Can/git/qm/arc-ws/piloted-parking/git-submodules/common/internal/arc-frameworks-src/audi-3d-sdk/projects/BJM/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml
+		ADDED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/canyumusak/git/coy/bjm/app/src/main/AndroidManifest.xml
